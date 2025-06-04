@@ -157,7 +157,7 @@ function renderQuestion1Page() {
 
     const section = createElement('div', { className: 'section quiz-section' });
     const title = createElement('h2', { textContent: 'Frage 1: CV-Teamwork-Kalkulator' });
-    const questionText = createElement('p', { textContent: 'Hand aufs Herz, Jannick: Wie viele Ingenieure (oder talentierte Schrauber wie dich) braucht es WIRKLICH, um eine störrische CV-Gelenkwelle zu bändigen (und fachgerecht zu wechseln)?' });
+    const questionText = createElement('p', { textContent: 'Hand aufs Herz: Wie viele Ingenieure braucht es, um eine CV-Gelenkwelle anzulegen (und das, ohne die Zeichnung zu erstellen?)?' });
 
     const input = createElement('input', {
         id: 'answer1',
